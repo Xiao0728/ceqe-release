@@ -1,5 +1,5 @@
 # CEQE: Contextualized Embeddings for Query Expansion
-This This repo contains the code for our paper [CEQE: Contextualized Embeddings for Query Expansion](https://arxiv.org/pdf/2103.05256.pdf).
+This repo contains the code for our paper [CEQE: Contextualized Embeddings for Query Expansion](https://arxiv.org/pdf/2103.05256.pdf).
 
 ### Introduction
 
