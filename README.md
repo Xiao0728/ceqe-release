@@ -9,7 +9,7 @@ CEQE (Contextualized Embeddings for Query Expansion) is a query expansion model 
 
 To run CEQE, you need to have the following data:
 - A TREC format initial run file. (example: [robust_bm25.combined.run](https://github.com/sherinaseri/ceqe-release/tree/main/data/robust))
-- The text of the top k retrieved documents in the initial run. (example of the 1000 retireved documents for query_id 301: [prfdocs.bm25(https://github.com/sherinaseri/ceqe-release/tree/main/data/robust/prfdocs.bm25/301))
+- The text of the top k retrieved documents in the initial run. (example of the 1000 retireved documents for query_id 301: [prfdocs.bm25](https://github.com/sherinaseri/ceqe-release/tree/main/data/robust/prfdocs.bm25/301))
 - The query id and query text in a tab separated file. (example: [stopped_queries_lower.txt](https://github.com/sherinaseri/ceqe-release/blob/main/data/robust/stopped_queries_lower.txt))
 
 To rank the expansion term for a given query (for example query "301" in Robust04 collection) run `end-to-end-ranking-expansion-terms.py`:
